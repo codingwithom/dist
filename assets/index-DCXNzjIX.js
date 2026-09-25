@@ -34728,7 +34728,7 @@ function getBackendBaseUrl() {
   const savedOverride = localStorage.getItem("jee_backend_api") || localStorage.getItem("api_server_url");
   if (savedOverride) return savedOverride.trim().replace(/\/$/, "");
   {
-    return "https://api-server.stude.workers.dev";
+    return "https://api.stude.workers.dev";
   }
 }
 function setupApiInterceptors() {
